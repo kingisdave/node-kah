@@ -1,0 +1,157 @@
+.mynav{
+  background: #f4f4f4 !important;
+  color: #000 !important;
+}
+
+#disp{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(3,21,49, 0.8)), url('../images/lens.jpg');
+    height: 70vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+}
+#disp:hover{
+  animation-name: mydisplay;
+  animation-duration: 8s; 
+  animation-iteration-count: infinite;
+}
+@keyframes mydisplay{
+  0%{background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(3,21,49, 0.8)), url('../images/lens.jpg'); width: 100%; height: 70vh; background-position: center; background-size: cover;}
+  35%{background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(3,21,49, 0.8)),url('../images/lights.jpg'); width: 100%; height: 70vh; background-position: center; background-size: cover;}
+  65%{background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(3,21,49, 0.8)), url('../images/network.jpg'); width: 100%; height: 70vh; background-position: center; background-size: cover;}
+}
+#indexrow{
+  margin-top:10%;
+}
+.writingInput{
+  width: 100%;
+  height: 15vh;
+}
+
+.answerInput{
+  width: 100%;
+  height:10vh;
+}
+
+i{
+  color: #031531 !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+#mybtn{
+  padding: 10px 20px !important;
+    background: #031531 !important;
+    font-weight: bold;
+
+
+    /*box-shadow: 3px 3px 3px #999;*/
+} 
+#mybtn:hover{
+  box-shadow: 3px 3px 3px #999;
+
+}
+
+/* For the register page */
+.signup-col{
+    height: 95vh; 
+}
+.signup-card{
+    width: 90%;
+    background:#E9EBEE;
+    color:#5FBAC9;
+    border-radius:23% 0 20% 0;
+}
+.signup-card-body{
+    width: 80%;
+}
+
+.signup-small{
+  color: #5FBAC9
+}
+
+/* For the login page */
+.login-col{
+  height: 90vh
+}
+.login-card{
+  width: 90%;
+  background:#E9EBEE;
+  color:#5FBAC9;
+  border-radius:11% 0 11% 0
+}
+.login-card-body{
+  width: 80%;
+}
+
+#textCapitalize{ text-transform: capitalize;}
+
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 80px 0px 65px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+}
+.files{ position:relative}
+.files:after {  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+  position: absolute;
+  bottom: 0px;
+  left: 0;  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 37px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 50;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* .container .cat{
+  padding: 25px 20px;
+}
+.container .category .fa{
+  color: #031531 !important;
+}
+.container .category{
+  text-align: justify;
+}
+.container .aboutimg{
+  background: url('./images/blucola.jpg') no-repeat center;
+  background-size: contain; 
+}
+.contact{
+  background: #031531 !important;
+  width: 100%;
+  color: #f4f4f4 !important;
+  height: 30vh;
+  text-align: left;
+}
+.contact p{
+  font-size: 13px;
+} */
